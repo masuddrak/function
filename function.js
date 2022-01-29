@@ -1,13 +1,9 @@
-//loop is not multiple call system
-//functin is a multiple call system
-
-function study(){
-    console.log("ami akhon vat khabo");
-    console.log("na ami jeteparbona");
+function bringSingara(taka){
+    console.log('sigar anar jonno taka sise =',taka);
+    var singPrice=10;
+    var singarQuintity=taka/singPrice;
+    return singarQuintity;
 }
-study();
-var a=20;
-var b=40;
-var c=a+b;
-console.log(c);
-study();
+var money=250;
+var singara=bringSingara(money);
+console.log('mama now tomar sigara',singara);
